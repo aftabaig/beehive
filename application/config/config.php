@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://www.syslotix.com/beehive/';
+$config['base_url']	= 'http://dry-sea-7768.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
