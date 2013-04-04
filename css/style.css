@@ -1,0 +1,516 @@
+@import url("reset.css");
+/* Main CSS Start */
+
+body {
+	background: #fff;
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #fdc67d;
+	margin:0 0 0 0;
+	padding:0;
+}
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+.padding-none {
+	padding: 0!important;
+}
+.margin-none {
+	margin: 0!important;
+}
+/* Main CSS End */
+
+
+/* Header CSS Start */
+
+.outer-top-menu {
+	width:100%;
+	margin:0 auto;
+	height:45px;
+	background:#382015;
+}
+.top-menu {
+	width:980px;
+	margin:0 auto;
+	height:45px;
+}
+.top-menu ul {
+	list-style-type:none;
+	padding:0 0 0 0;
+	float:right;
+}
+.top-menu ul li {
+	float:left;
+	padding:0 0;
+	background:url(../images/seprator1.png) no-repeat left 16px;
+ *width:60px;
+ color:#fff;
+ line-height:45px;
+}
+.top-menu ul li:first-child {
+	background:none;
+	padding:0 10px;
+}
+.top-menu ul li a {
+	padding:0 10px;
+	color:#fff;
+	font-size:14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	line-height:45px;
+}
+.header {
+	width:100%;
+	margin:0 auto;
+	height:157px;
+	background:url(../images/honeycomb-bg.png) repeat-x #ebd5a3;
+}
+.inner-header {
+	width:980px;
+	height:127px;
+	margin:0 auto;
+}
+.logo {
+	width:169px;
+	margin-top:25px;
+	float:left;
+}
+.menu {
+	width:700px;
+	float:right;
+	padding:55px 0 0 0;
+}
+.menu ul {
+	list-style-type:none;
+	padding:0 0 0 0;
+	float:right;
+}
+.menu ul li {
+	float:left;
+	margin:0 10px 0 0;
+}
+
+.menu ul li:last-child {
+	margin:0 0 0 0;
+}
+
+.menu ul li a {
+	color:#fdc67d;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	background:	#382015;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	font-size:14px;
+	padding:8px 30px;
+}
+.menu ul li a:hover {
+	color:#382015;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	font-size:14px;
+	padding:8px 30px;
+	background:	#f9a028;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+}
+
+.menuselect{
+	color:#382015;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	background:	#f9a028;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	font-size:14px;
+	padding:8px 30px;
+	position:relative;
+	top:-8px;
+}
+
+#breadcrumb {
+	width:980px;
+	height:30px;
+	margin:0 auto;
+	padding-top:6px;
+}
+
+#breadcrumb h3 {
+	color:#673923;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	line-height:16px;
+	font-size:13px;
+}
+#breadcrumb h3 span {
+	color:#673923;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	line-height:16px;
+	font-size:13px;
+}
+
+
+.res-menu {
+	width:980px;
+	margin-top:100px;
+}
+.res-menu ul {
+	list-style-type:none;
+	padding:0 0 0 0;
+}
+.res-menu ul li {
+	float:left;
+	margin:0 33.25px 0 0;
+	text-align:center;
+}
+
+.res-menu ul li:last-child {
+	margin:0 0 0 0;
+}
+
+.res-menu ul li a {
+	color:#382015;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	width:110px;
+	height:64px;
+	display:block;
+	background:	#fdf2dc;
+	border-radius:200px;
+	-moz-border-radius:200px;
+	-webkit-border-radius:200px;
+	font-size:18px;
+	padding-top:95px;
+}
+
+.res-menu ul li a:hover {
+	color:#382015;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	width:220px;
+	height:125px;
+	display:block;
+	background:	#faa12c;
+	border-radius:200px;
+	-moz-border-radius:200px;
+	-webkit-border-radius:200px;
+	font-size:18px;
+}
+
+
+.btn {
+	float:left;
+	margin:30px 0 0 0;
+}
+
+.btn a {
+color:#382015;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	font-size:14px;
+	padding:8px 30px;
+	background:	#f9a028;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+}
+
+.btn a:hover {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	font-size:14px;
+	padding:8px 30px;
+	background:	#f9a028;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+}
+
+
+
+.msg {
+	position:relative;
+	padding:15px;
+	margin:30px 0 0.5em;
+	color:#392115;
+	background:#fdf2dc;
+	width:470px;
+	/* css3 */
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+.msg p {font-size:14px; line-height:1.25em; max-width:500px;}
+
+.msg img {
+	display: inline;
+	margin: 5px 5px;
+	width:40%;
+	height:40%;
+	
+
+}
+/* creates the triangle */
+.msg:after {
+    border-color: #fdf2dc transparent;
+    border-style: solid;
+    border-width: 10px 10px 0;
+    bottom: -10px;
+    content: "";
+    display: block;
+    left: 30px;
+    position: absolute;
+    width: 0;
+}
+
+.msg + p {padding-left:10px; font:12px Arial, sans-serif; color:#392115; margin-top:15px;}
+
+
+
+
+
+
+/* Header CSS End */
+
+
+
+/* Login Page CSS Start */
+
+#login-col-1 {
+	width:980px;
+	padding:400px 0 0 0;
+	margin:50px 0 0 0;
+	min-height:98px;
+	background: url(../images/login-center-logo.png) no-repeat center top;
+}
+#login-top {
+	background:url(../images/login-top.png) no-repeat left top;
+	width:981px;
+	height:18px;
+	line-height:0;
+	font-size:0;
+}
+#login-mid {
+	background:url(../images/login-mid.png) repeat-y left top;
+	width:981px;
+}
+#login-mid #loginbox {
+	list-style-type:none;
+	padding:0 0 0 29px;
+}
+#login-mid #forgetbox {
+	list-style-type:none;
+	padding:0 0 0 29px;
+	display:none;
+}
+#login-mid #loginbox li, #forgetbox li {
+	padding:0 0 0 0;
+	display:inline;
+}
+#login-mid #loginbox li label, #forgetbox li label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	color:#fdc67d;
+	padding:0 16px 0 21px;
+}
+#login-mid #loginbox li label a, #forgetbox li label a {
+	text-decoration:underline;
+	font-size:14px;
+	color:#fdc67d;
+}
+#login-mid #loginbox li label a:hover, #forgetbox li label a:hover {
+	text-decoration:none;
+}
+#login-mid #loginbox li .field, #forgetbox li .field {
+	background:none;
+	width:209px;
+	height:34px;
+ *height:22px;
+	line-height:26px;
+	border:0;
+}
+#login-mid #loginbox li .field1, #forgetbox li .field1 {
+	background:url(../images/input-bg1.png) no-repeat left top;
+	padding:0 5px;
+	display:inline-block;
+}
+.login-btn {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: url(../images/login-btn-bg.png) no-repeat left top;
+	width:89px;
+	height:26px;
+	text-decoration:none;
+	color:#3a2114;
+	font-size:14px;
+	border:none;
+	cursor:pointer;
+	margin:0 5px 0 16px;
+}
+#login-bot {
+	background:url(../images/login-bot.png) no-repeat left bottom;
+	width:981px;
+	height:41px;
+	line-height:0;
+	font-size:0;
+}
+
+
+/* Login Page CSS End */
+
+
+
+/* Table CSS Start */
+
+#hor-zebra {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 10px 0;
+	width: 980px;
+	text-align: left;
+	border-collapse:collapse;
+	background:url(../images/table-bg.png) center bottom;
+}
+#hor-zebra th {
+	font-size: 18px;
+	font-weight: normal;
+	padding: 16px 30px;
+	color: #fdc67d;
+	background:#382015;
+	height:50px;
+	border-bottom:4px solid #cfb987;
+	border-left:1px solid #382015;
+	border-right:1px solid #cfb987;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#hor-zebra tr {
+	height:45px;
+}
+#hor-zebra td {
+	padding: 18px 30px;
+	color: #382015;
+	border-left:1px solid #cfb987;
+	border-right:1px solid #cfb987;
+}
+#hor-zebra .odd {
+	background: #ebd5a3;
+}
+#hor-zebra .even {
+	background: #fffaee;
+}
+#hor-zebra .odd td {
+	color:#382015;
+	border-left:1px solid #cfb987;
+	border-right:1px solid #cfb987;
+}
+/* Table CSS End */
+
+
+/* Forms CSS Start */
+
+#formbg {
+	background:#ebd5a3;
+	width:980px;
+	height:300px;
+	margin: 72px 0 0 0;
+	padding: 40px 0 70px 0;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color:#382015;
+	text-align:center;
+}
+
+#formcontainer{
+	width:550px;
+	margin: 0 auto;
+	text-align:left;
+}
+
+.formcontainer-lt{
+	width:350px;
+	text-align:left;
+	float:left;
+	margin:0 0 0 50px;
+}
+
+#formshadow {
+		width:980px;
+	    height:20px;
+		background:url(../images/form-shadow.png) center bottom;
+}
+
+.field {
+	background:none;
+	width:409px;
+	height:34px;
+ *height:30px;
+	line-height:34px;
+	border:0;
+}
+
+.field-employe {
+	background:none;
+	width:209px;
+	height:34px;
+ *height:30px;
+	line-height:34px;
+	border:0;
+}
+.field1 {
+	background:url(../images/input-bg.png) no-repeat left top;
+	padding:0 10px;
+	display:inline-block;
+
+}
+.field1-employe {
+	background:url(../images/input-bg1.png) no-repeat left top;
+	padding:0 10px;
+	margin-left:-5px;
+	display:inline-block;
+
+}
+.textarea1 {
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/textarea-bg.png) no-repeat left top;
+	padding:10px 24px 10px 10px;
+	display:inline-block;
+
+}
+.textarea2 {
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/textarea2-bg.png) no-repeat left top;
+	padding:10px 26px 10px 10px;
+	display:inline-block;
+
+}
+
+select.select {
+	position:relative;
+	z-index:10;
+	width:209px !important;
+	height:34px !important;
+	line-height:34px;
+}
+/* dynamically created SPAN, placed below the SELECT */
+span.select {
+	position:absolute;
+	bottom:0;
+	float:left;
+	left:0;
+	top:-3px;
+	width:209px;
+	height:34px;
+	line-height:34px;
+	text-indent:10px;
+	background:url(../images/dropdown-bg.png) no-repeat 0 0;
+	cursor:default;
+	z-index:1;
+}
+
+/* Form CSS End */
